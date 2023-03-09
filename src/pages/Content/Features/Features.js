@@ -1,11 +1,17 @@
-import "./Features.css";
 import React from "react";
 import { Col, Row } from "antd";
 import CustomCard from "../../Components/CustomCard";
 
 const Features = () => {
   return (
-    <section className="Features">
+    <section
+      className="Features section"
+      id="Features"
+      style={{
+        background:
+          " linear-gradient(to bottom, rgb(250 125 154 / 20%), rgba(238,241,250,0))",
+      }}
+    >
       <div className="container">
         <center
           style={{

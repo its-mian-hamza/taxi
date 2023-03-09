@@ -1,4 +1,3 @@
-import "./Hero.css";
 import React from "react";
 import { Button, Col, Row } from "antd";
 
@@ -7,7 +6,18 @@ const Hero = () => {
     <div>
       <section
         className="hero"
-        style={{ backgroundImage: "url(images/hero-bg.png)" }}
+        style={{
+          backgroundImage: "url(images/hero-bg.png)",
+          width: "100%",
+          height: "100vh",
+          minHeight: "800px",
+          backgroundPosition: "top center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundAttachment: "fixed",
+          display: "flex",
+          alignItems: "center",
+        }}
       >
         <div className="container">
           <Row gutter={10} style={{ alignItems: "center" }}>
@@ -23,8 +33,8 @@ const Hero = () => {
             <Col xs={24} sm={24} md={12} lg={12} xl={12}>
               <img
                 src="images/hero-img.png"
-                className="hero_img"
-                alt="hero-img"
+                style={{ width: "100%", height: "auto" }}
+                alt="Hero"
               />
             </Col>
           </Row>

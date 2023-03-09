@@ -1,6 +1,6 @@
 import React from "react";
 
-const CustomCard = ({ image, title, description }) => {
+const CustomStatistics = ({ title, description }) => {
   return (
     <div
       className="custom_card"
@@ -11,21 +11,8 @@ const CustomCard = ({ image, title, description }) => {
         height: "100%",
       }}
     >
-      <div
-        className="card_head"
-        style={{ paddingTop: "30px", paddingBottom: "20px" }}
-      >
-        <img
-          src={image}
-          alt={title}
-          style={{
-            width: "100%",
-            maxWidth: "70%",
-            transition: "0.5s",
-          }}
-        />
-      </div>
       <div style={{ padding: "20px" }}>
+        <p>{title}</p>
         <div
           style={{
             fontSize: "20px",
@@ -34,12 +21,11 @@ const CustomCard = ({ image, title, description }) => {
             fontWeight: "bold",
           }}
         >
-          {title}
+          {description}
         </div>
-        <p>{description}</p>
       </div>
     </div>
   );
 };
 
-export default CustomCard;
+export default CustomStatistics;

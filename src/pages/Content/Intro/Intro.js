@@ -1,9 +1,8 @@
-import "./Intro.css";
 import React from "react";
 
 const Intro = () => {
   return (
-    <section className="intro">
+    <section className="intro section" id="Introduction">
       <div className="container">
         <center
           style={{
