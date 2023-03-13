@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col, Row } from "antd";
+import { DownloadOutlined } from "@ant-design/icons";
 
 const Hero = () => {
   return (
@@ -24,9 +25,16 @@ const Hero = () => {
             <Col xs={24} sm={24} md={12} lg={12} xl={12}>
               <h1>The premier taxi service for Women & Children</h1>
               <h5>- Joud taxi your trusted ride.</h5>
-              <Button type="primary" size="large">
-                Download Whitepaper
-              </Button>
+              <a
+                href="images/dummy.pdf"
+                download="Whitepaper Plain"
+                target="_blank"
+              >
+                <Button type="primary" size="large">
+                  Download Whitepaper{" "}
+                  <DownloadOutlined style={{ fontSize: "20px" }} />
+                </Button>
+              </a>
             </Col>
             <Col xs={24} sm={24} md={12} lg={12} xl={12}>
               <img
