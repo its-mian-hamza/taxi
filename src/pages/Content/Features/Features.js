@@ -31,7 +31,7 @@ const Features = () => {
         <Row gutter={[30, 30]}>
           <Col xs={24} sm={24} md={12} lg={8} xl={8}>
             <CustomCard
-              image="images/values-1.png"
+              image="images/Women-only-Drivers.svg"
               title="Women only Drivers"
               description="Joud Taxi will only employ women drivers, ensuring that passengers
           feel safe and comfortable during their ride."
@@ -39,7 +39,7 @@ const Features = () => {
           </Col>
           <Col xs={24} sm={24} md={12} lg={8} xl={8}>
             <CustomCard
-              image="images/values-2.png"
+              image="images/Child-Friendly.svg"
               title="Child Friendly"
               description="Joud Taxi will provide special child seats for children to
                   ensure their safety and comfort during the ride."
@@ -47,7 +47,7 @@ const Features = () => {
           </Col>
           <Col xs={24} sm={24} md={12} lg={8} xl={8}>
             <CustomCard
-              image="images/values-3.png"
+              image="images/Blockchain-based-security.svg"
               title="Blockchain-based security"
               description="The app will use blockchain technology to ensure the security
                   of user data and transactions, as well as to prevent fraud and

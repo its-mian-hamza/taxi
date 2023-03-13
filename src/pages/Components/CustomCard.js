@@ -19,9 +19,9 @@ const CustomCard = ({ image, title, description }) => {
           src={image}
           alt={title}
           style={{
-            width: "100%",
-            maxWidth: "70%",
+            width: "80%",
             transition: "0.5s",
+            height: "200px",
           }}
         />
       </div>

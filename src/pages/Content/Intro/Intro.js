@@ -12,7 +12,7 @@ const Intro = () => {
             marginBottom: "5%",
           }}
         >
-          <h2>Most Trusted Taxi Company in Dubai</h2>
+          <h2>Most Trusted Taxi Company</h2>
           <p>
             The Joud Taxi is a concept taxi application that provides a safe and
             secure ride-hailing service for children and women. The Joud Taxi
