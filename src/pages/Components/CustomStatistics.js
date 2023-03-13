@@ -1,18 +1,29 @@
 import React from "react";
 
-const CustomStatistics = ({ title, description }) => {
+const CustomStatistics = ({ image, title, description }) => {
   return (
     <div
       className="custom_card"
       style={{
-        textAlign: "center",
-        background: "#ffffff",
-        transition: "0.3s",
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
         height: "100%",
       }}
     >
+      <img
+        src={image}
+        alt={title}
+        style={{
+          width: "100%",
+          maxWidth: "130px",
+          height: "auto",
+        }}
+      />
+
       <div style={{ padding: "20px" }}>
-        <p>{title}</p>
+        <p style={{ marginTop: "0" }}>{title}</p>
         <div
           style={{
             fontSize: "20px",

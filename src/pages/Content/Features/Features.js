@@ -88,6 +88,20 @@ const Features = () => {
               description="Passengers will be able to track their driver in real-time, allowing them to know exactly when their driver will arrive."
             />
           </Col>
+          <Col xs={24} sm={24} md={12} lg={8} xl={8}>
+            <CustomCard
+              image="images/values-3.png"
+              title="Reports"
+              description="Provide insights regarding trips and earnings on a daily/weekly/monthly basis."
+            />
+          </Col>
+          <Col xs={24} sm={24} md={12} lg={8} xl={8}>
+            <CustomCard
+              image="images/values-3.png"
+              title="Trusted"
+              description="Aligned with a listed company the token will be backed by shares traded OTC with SEC regulations."
+            />
+          </Col>
         </Row>
       </div>
     </section>

@@ -24,16 +24,25 @@ const Tokenomics = () => {
         </center>
         <Row gutter={[30, 30]}>
           <Col xs={24} sm={24} md={12} lg={8} xl={8}>
-            <CustomStatistics title="Token Symbol" description="JOUD" />
+            <CustomStatistics
+              image="images/values-1.png"
+              title="Token Symbol"
+              description="JOUD"
+            />
           </Col>
           <Col xs={24} sm={24} md={12} lg={8} xl={8}>
             <CustomStatistics
+              image="images/values-2.png"
               title="Total Supply"
               description="1 billion JOUD tokens"
             />
           </Col>
           <Col xs={24} sm={24} md={12} lg={8} xl={8}>
-            <CustomStatistics title="Token Type" description="BSC" />
+            <CustomStatistics
+              image="images/values-3.png"
+              title="Token Type"
+              description="BSC"
+            />
           </Col>
         </Row>
       </div>

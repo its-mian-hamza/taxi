@@ -22,12 +22,10 @@ const Hero = () => {
         <div className="container">
           <Row gutter={10} style={{ alignItems: "center" }}>
             <Col xs={24} sm={24} md={12} lg={12} xl={12}>
-              <h1>We offer modern solutions for growing your business</h1>
-              <h5>
-                We are team of talented designers making websites with React.
-              </h5>
+              <h1>The premier taxi service for Women & Children</h1>
+              <h5>- Joud taxi your trusted ride.</h5>
               <Button type="primary" size="large">
-                Download Plain
+                Download Whitepaper
               </Button>
             </Col>
             <Col xs={24} sm={24} md={12} lg={12} xl={12}>
