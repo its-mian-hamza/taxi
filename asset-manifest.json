@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/taxi/static/css/main.08deb71f.css",
-    "main.js": "/taxi/static/js/main.576ec4ce.js",
+    "main.js": "/taxi/static/js/main.1750d180.js",
     "static/media/Nunito-Black.woff": "/taxi/static/media/Nunito-Black.9bf0689a5d23ef44b1d0.woff",
     "static/media/Nunito-Medium.woff": "/taxi/static/media/Nunito-Medium.d7e200278e48600db978.woff",
     "static/media/Nunito-Regular.woff": "/taxi/static/media/Nunito-Regular.32d98bf516a0bb793c6a.woff",
@@ -12,10 +12,10 @@
     "static/media/Nunito-Bold.woff2": "/taxi/static/media/Nunito-Bold.9452a0da7cf5a7bf2782.woff2",
     "index.html": "/taxi/index.html",
     "main.08deb71f.css.map": "/taxi/static/css/main.08deb71f.css.map",
-    "main.576ec4ce.js.map": "/taxi/static/js/main.576ec4ce.js.map"
+    "main.1750d180.js.map": "/taxi/static/js/main.1750d180.js.map"
   },
   "entrypoints": [
     "static/css/main.08deb71f.css",
-    "static/js/main.576ec4ce.js"
+    "static/js/main.1750d180.js"
   ]
 }
